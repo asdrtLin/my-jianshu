@@ -1,0 +1,436 @@
+@charset "utf-8";
+@value:56px;
+.left{
+
+    float: left;
+}
+.right{
+    
+    float: right;
+}
+.hidd{
+    display: none;
+}
+.hiddO{
+    overflow: hidden;
+}
+.ovAuto{
+    overflow: auto;
+}
+a{
+    text-decoration: none;
+}
+.allHeader{
+    border-bottom: 10px solid #eee;
+    position: fixed;
+    background-color: #fff8f8;
+    z-index: 2;
+    top: 0;
+    height:@value;
+    width: 100%;
+    .headerchange{
+        height: @value;
+        // overflow: auto;
+        scroll-behavior: smooth;
+        &::-webkit-scrollbar{
+            height: 0px;
+            width: 0px;
+        }
+    }
+}
+.header{
+    // position: fixed;
+    // top: 0;
+    
+    height:@value;
+    width: 100%;
+    min-width: 768px;
+    max-width: 1440px;
+    
+    box-shadow: 0px 1px 0px #e7e7e7;
+    
+}
+
+.iconShoujixiazai{
+    text-align: center;
+}
+.menus{
+    display: none;
+}
+
+.content{
+    margin: 0px 400px 0px 100px;
+    position: relative;
+    ul.leftUl{
+        // overflow: hidden;
+        height: @value;
+    }
+    
+}
+
+.dLeft{
+    // position: absolute;
+    margin: 0px auto;
+    height: @value;
+    width: 515px;
+    
+   
+}
+.header li{
+    height: @value;
+    position: relative;
+    a{
+        display: block;
+        padding: 0px 15px;
+        &.line{
+            line-height: @value;
+        }
+    }
+    input{//文本框
+        position: relative;
+        top:13px;
+        width: 120px;
+        background-color: #e0dcdc;
+        height: 30px;
+        border-radius: 15px;
+        outline: none;
+        padding: 0 10px;
+        border-width: 1px;
+        border: 1px solid rgb(219, 213, 213);
+        transition:width  .5s ;
+        &:focus{
+            width: 200px;
+            &+span{
+                background-color: #969696;
+            }
+        }
+    }
+}
+.fangdajing{
+    display: block;
+    float: right;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+    position: relative;
+    top: 14px;
+    right: 31px;
+    border-radius: 15px;
+    background-color: #fff;
+    transition:background-color  .5s ;
+    
+}
+.logo{//logo图片
+    .left;
+    height: @value;
+    padding: 0px;
+    img{
+        height: @value;
+        width: 100px;
+    }
+}
+.index{//首页
+    background-color: #fff8f8;
+    .left;
+    a{
+        color:#ea6f5a;
+    }
+}
+.app{//app,IT
+    background-color: #fff8f8;
+    .left;
+    &:hover{
+        background-color: #eee;
+    }
+    margin-right: 15px;
+    a{
+        color: #333;
+    }
+}
+.aa{//Aa,登录
+    
+    .right;
+    margin-right: 15px;
+    a{
+        color: #969696;
+    }
+}
+.writing{//写作
+    .right;
+    
+    width: 100px;
+    text-align: center;
+    margin-right: 15px;
+    
+    a{
+        height: 30px;
+        line-height: 30px;
+        color: #fff;
+        background-color: #ea6f5a;
+        border-radius: 15px;
+        position: relative;
+        top: 13px;
+        &:hover{
+            background-color: #e7563c;
+        }
+    }
+    
+}
+
+.login{//注册
+    .right;
+    margin-right: 15px;
+    a{
+        height: 30px;
+        line-height: 30px;
+        border: 1px solid #ea6f5a;
+        border-radius: 15px;
+        color: #ea6f5a;
+        position: relative;
+        top: 13px;
+        &:hover{
+            color: #f04d30;
+            border: 1px solid #f04d30;
+        }
+    }
+}
+.msg{
+    visibility: visible;
+    background-color: #fff;
+    // overflow: auto;
+    position: absolute;
+    top: @value;
+    // left: 400px;
+    border: 1px solid #fdebeb;
+    border-radius: 5px;
+    width: 200px;
+    z-index: 1;
+    // text-align: center;
+    padding: 10px;
+    box-shadow: 0 0 8px #c5c5c5;
+    li{
+        position: relative;
+        height:20px;
+        line-height:20px ;
+        padding: 10px 30px;
+        border-radius: 5px;
+        &:hover{
+            background-color: #efefef;
+            
+        }
+        &:before{
+            position: absolute;
+            left: 0px;
+            content: "\e6af";
+            font-size: 22px;
+            padding-right: 10px;
+        }
+        span.delete{
+            position: absolute;
+            right: 0px;
+            color: #b6c3cc;
+            font-size: 22px;
+            &:hover{
+                color: #be1919c7;
+            }
+        }
+    }
+    &::after{
+        content:'';
+        position: absolute;
+        width: 0;
+        height: 0;
+        border: 12px solid transparent;
+        border-bottom-color: #fff;
+        left: 20px;
+        bottom: 99%;
+    }
+}
+// span.triangle{
+//     position: absolute;
+//     top: -12px;
+//     left: 5px;
+//     font-size: 12px;
+//     color: #fff;
+//     box-shadow: 1px 2px 3px #969696;
+// }
+/**********detail标题栏************/
+.detail{
+    height: @value;
+    
+    .detailC{
+        height: @value;
+        width: 1000px;
+        margin: 0 auto;
+        h3{
+            float: left;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: @value;
+        }
+    }
+    .detailR{
+        .title{
+            position: relative;
+            top: 8px;
+            float: right;
+            
+            span{
+                color: #7d7d7d;
+                margin: 0 10px;
+                font-size: 14px;
+            }
+            img{
+                width: 40px;
+                border-radius: 20px;
+                vertical-align: middle;
+            }
+        }
+    }
+    .writing{
+        a{
+            height: 30px;
+            line-height: 30px;
+            color: #fff;
+            background-color: #ea6f5a;
+            border-radius: 15px;
+            position: relative;
+            top: 13px;
+            padding: 5px 10px;
+            &:hover{
+                background-color: #e7563c;
+            }
+        }
+    }
+    .login{
+        a{
+            height: 30px;
+            padding: 5px 10px;
+            line-height: 30px;
+            border: 1px solid #ea6f5a;
+            border-radius: 15px;
+            color: #ea6f5a;
+            position: relative;
+            top: 13px;
+            &:hover{
+                color: #f04d30;
+                border: 1px solid #f04d30;
+            }
+        }
+    }
+}
+@media screen and (max-width:960px) {
+    
+    .content{
+        width: 335px;
+    }
+    .line{
+        span{
+            display: none;
+        }
+
+    }
+    .iconShoujixiazai:before {
+        content: "\e608";
+      }
+      .iconZhinanzhen:before {
+        content: "\e651";
+      }
+      .iconDilanxianxingiconyihuifuHuabanfuben:before {
+        content: "\e603";
+      }
+      .header li{
+        input{//文本框
+           
+            width: 120px;
+            transition:width  .5s ;
+            &:focus{
+                width:140px;
+                
+            }
+        }
+      }
+
+}
+
+@media screen and (max-width:820px) {
+    // .header li{
+    //     input{//文本框
+           
+    //         width: 120px;
+    //         transition:width  .5s ;
+    //         &:focus{
+    //             width:140px;
+                
+    //         }
+    //     }
+    //   }
+    .showLeft{
+        display: block;
+    }
+    .hiddLeft{
+        display: none;
+    }
+    .menus{
+    float: left;
+    display: block;
+    width: 56px;
+    text-align: center;
+    font-size: 32px;
+    line-height: @value;
+    &:hover{
+        cursor: pointer;
+        border-right: 1px solid #e4d5d5;
+        border-left: 1px solid #e4d5d5;
+    }  
+    }
+    .dLeft{
+        
+        position: fixed;
+        width: 100%;
+        top:@value;
+        left: 0px;
+        right: 0px;
+        li{
+            background-color: #fff;
+            float: none;
+            text-align: center;
+            margin-right: 0px;
+            a{
+                margin: 0;
+                display: inline;
+            }
+            input{
+                width:96%;
+                transition:width  .5s ;
+            &:focus{
+                width:96%;;
+            }
+            }
+            .line{
+                span{
+                    display: inline;
+                }
+        }
+        .fangdajing{
+            top: -18px;
+            right: 5px;
+        }
+    }
+    
+    
+}
+.iconShoujixiazai:before {
+    content: "";
+  }
+.iconZhinanzhen:before {
+    content: "";
+  }
+.iconDilanxianxingiconyihuifuHuabanfuben:before {
+    content: "";
+}
+}
+
+    
+
+    

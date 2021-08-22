@@ -1,0 +1,219 @@
+{
+  "id": "2724498",
+  "name": "jianshu",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "这是简书iconfont仓库",
+  "glyphs": [
+    {
+      "icon_id": "6299448",
+      "name": "方向",
+      "font_class": "icon-",
+      "unicode": "e67b",
+      "unicode_decimal": 59003
+    },
+    {
+      "icon_id": "493532",
+      "name": "上传",
+      "font_class": "shangchuan",
+      "unicode": "e7b0",
+      "unicode_decimal": 59312
+    },
+    {
+      "icon_id": "579290",
+      "name": "赏",
+      "font_class": "shang",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "1242129",
+      "name": "赞",
+      "font_class": "zan",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    },
+    {
+      "icon_id": "1504138",
+      "name": "人",
+      "font_class": "ren",
+      "unicode": "e654",
+      "unicode_decimal": 58964
+    },
+    {
+      "icon_id": "2076196",
+      "name": "赞",
+      "font_class": "zan1",
+      "unicode": "e870",
+      "unicode_decimal": 59504
+    },
+    {
+      "icon_id": "2551760",
+      "name": "关注",
+      "font_class": "guanzhu",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "3506877",
+      "name": "weibo",
+      "font_class": "weibo",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "4532571",
+      "name": "打赏",
+      "font_class": "dashang",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    },
+    {
+      "icon_id": "5634808",
+      "name": "qq",
+      "font_class": "qq",
+      "unicode": "f216",
+      "unicode_decimal": 61974
+    },
+    {
+      "icon_id": "6234478",
+      "name": "二维码",
+      "font_class": "erweima",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    },
+    {
+      "icon_id": "6246303",
+      "name": "信封",
+      "font_class": "xinfeng",
+      "unicode": "e64d",
+      "unicode_decimal": 58957
+    },
+    {
+      "icon_id": "6684308",
+      "name": "微信",
+      "font_class": "weixin",
+      "unicode": "e637",
+      "unicode_decimal": 58935
+    },
+    {
+      "icon_id": "7040619",
+      "name": "其他",
+      "font_class": "qita",
+      "unicode": "e63a",
+      "unicode_decimal": 58938
+    },
+    {
+      "icon_id": "11082660",
+      "name": "消息",
+      "font_class": "dibutubiao_xiaoxi",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "14445364",
+      "name": "锁",
+      "font_class": "suo",
+      "unicode": "e623",
+      "unicode_decimal": 58915
+    },
+    {
+      "icon_id": "925503",
+      "name": "钻石",
+      "font_class": "zuanshi",
+      "unicode": "e65d",
+      "unicode_decimal": 58973
+    },
+    {
+      "icon_id": "16588065",
+      "name": "心",
+      "font_class": "xin",
+      "unicode": "e705",
+      "unicode_decimal": 59141
+    },
+    {
+      "icon_id": "21108927",
+      "name": "消息",
+      "font_class": "xiaoxi",
+      "unicode": "e63e",
+      "unicode_decimal": 58942
+    },
+    {
+      "icon_id": "11136718",
+      "name": "三角",
+      "font_class": "ziyuan",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "1056886",
+      "name": "时间",
+      "font_class": "shijian",
+      "unicode": "e6af",
+      "unicode_decimal": 59055
+    },
+    {
+      "icon_id": "5305686",
+      "name": "x",
+      "font_class": "x",
+      "unicode": "e73e",
+      "unicode_decimal": 59198
+    },
+    {
+      "icon_id": "9642967",
+      "name": "指南针",
+      "font_class": "zhinanzhen",
+      "unicode": "e651",
+      "unicode_decimal": 58961
+    },
+    {
+      "icon_id": "9699648",
+      "name": "手机下载",
+      "font_class": "shoujixiazai",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "10622224",
+      "name": "朋友",
+      "font_class": "dilanxianxingiconyihuifu_huabanfuben",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "14294744",
+      "name": "放大镜",
+      "font_class": "fangdajing1",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "17817843",
+      "name": "更多",
+      "font_class": "gengduo",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "401103",
+      "name": "spin",
+      "font_class": "spin",
+      "unicode": "e851",
+      "unicode_decimal": 59473
+    },
+    {
+      "icon_id": "1621077",
+      "name": "Aa",
+      "font_class": "Aa",
+      "unicode": "e636",
+      "unicode_decimal": 58934
+    },
+    {
+      "icon_id": "21396811",
+      "name": "line-quill pen（羽毛笔）",
+      "font_class": "line-quillpenyumaobi",
+      "unicode": "e6eb",
+      "unicode_decimal": 59115
+    }
+  ]
+}

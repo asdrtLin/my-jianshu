@@ -1,0 +1,25 @@
+{
+    "status":true,
+    "data":[
+        {
+            "href":"http://www.baidu.com",
+            "urlImg":"/img/lbt/lunbo1.jpg",
+            "data-hf":"lunbo1"
+        },
+        {
+            "href":"http://www.baidu.com",
+            "urlImg":"/img/lbt/lunbo2.jpg",
+            "data-hf":"lunbo2"
+        },
+        {
+            "href":"http://www.baidu.com",
+            "urlImg":"/img/lbt/lunbo3.jpg",
+            "data-hf":"lunbo3"
+        },
+        {
+            "href":"http://www.baidu.com",
+            "urlImg":"/img/lbt/lunbo4.jpg",
+            "data-hf":"lunbo4"
+        }
+    ]
+}
